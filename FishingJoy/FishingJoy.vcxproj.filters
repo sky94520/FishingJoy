@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a22d54ca-ff92-4999-9170-8cf438a48527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\模型">
+      <UniqueIdentifier>{eb62802c-9ce2-4eb7-bcda-e373be044d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\场景">
+      <UniqueIdentifier>{73686c76-3dcd-4f26-bf4a-bd8fc253b88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\实体">
+      <UniqueIdentifier>{5afe0eb7-e2fc-49b2-ae0f-48d60e6177b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\杂项">
+      <UniqueIdentifier>{d9926904-1dc6-43a3-8dbf-a281d965f9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\开始场景">
+      <UniqueIdentifier>{c55f8904-fc07-44da-9228-9dfe7628544f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\main.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GB2ShapeCache-x.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StaticData.cpp">
+      <Filter>Classes\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FishingJoyData.cpp">
+      <Filter>Classes\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameScene.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Entity.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\B2Entity.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Fish.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FishLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\PanelLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Cannon.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\TouchLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\B2EntityFactory.cpp">
+      <Filter>Classes\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\NetGunBullet.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FishingNet.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\LevelLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FishingEntityLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\EffectLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\RotateAndSpeed.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\RotateSpeedSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ScoreSprite.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Skill.cpp">
+      <Filter>Classes\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillManager.cpp">
+      <Filter>Classes\模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StarFish.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Bullet.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\BulletLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\NumberSprite.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ItemButton.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Pearl.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Fog.cpp">
+      <Filter>Classes\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\RewardLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MenuItemReward.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ScrollLabel.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GoldCounter.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StartScene.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\LevelChooseLayer.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StartLayer.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StartStaticData.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\LoadingLayer.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Toast.cpp">
+      <Filter>Classes\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FlashScene.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\PauseLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GoldTimer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\HelpLayer.cpp">
+      <Filter>Classes\开始场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GB2ShapeCache-x.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StaticData.h">
+      <Filter>Classes\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FishingJoyData.h">
+      <Filter>Classes\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameScene.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Entity.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\B2Entity.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Fish.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FishLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\PanelLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Cannon.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\TouchLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\B2EntityFactory.h">
+      <Filter>Classes\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\NetGunBullet.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FishingNet.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\LevelLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FishingEntityLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\EffectLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\RotateAndSpeed.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\RotateSpeedSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ScoreSprite.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Skill.h">
+      <Filter>Classes\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillManager.h">
+      <Filter>Classes\模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StarFish.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Bullet.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\BulletLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\NumberSprite.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ItemButton.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Pearl.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Fog.h">
+      <Filter>Classes\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\RewardLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MenuItemReward.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ScrollLabel.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GoldCounter.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StartScene.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\LevelChooseLayer.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StartLayer.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StartStaticData.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\LoadingLayer.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Toast.h">
+      <Filter>Classes\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FlashScene.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\PauseLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GoldTimer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\HelpLayer.h">
+      <Filter>Classes\开始场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
